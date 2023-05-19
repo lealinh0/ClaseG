@@ -1,0 +1,257 @@
+
+
+
+ -Ejercicio 4.
+    (Reserva para localhost)
+
+
+ -Ejercicio 5.
+
+Dividir la dirección de red 145.35.128.0/18 en las siguientes
+
+1° Red 145.35.128.0/23
+    Broadcast145.35.129.255/23
+    Rango 128.1-129.254
+    IPs perdidas = 2⁹ - 400 - 2 = 110
+
+2º Red 145.35.130.0/23
+    Broadcast 145.35.131.255/23
+    Rango 130.1-131.254
+    IPs perdidas = 2⁹ - 400 - 2 = 110
+
+3º Red 145.35.132.0/23
+    Broadcast 145.35.133.255/23
+    Rango 132.1-133.254
+    IPs perdidas = 2⁹ - 110 - 2 = 110
+
+4º Red 145.35.134.0/25
+    Broadcast 145.35.134.128/25
+    Rango 134.1-134.127
+    IPs perdidas = 2⁷ - 110 - 2 = 16
+
+5º Red 145.35.134.129/25
+    Broadcast 145.35.134.255/25
+    Rango 134.130-134.254
+    IPs perdidas = 2⁷ - 110 - 2 = 16
+
+6º Red 145.35.135.0/21
+    Broadcast 145.35.135.255/21 --> No entiendo porque da esto xd
+    Rango 135.1-135.254
+    IPs perdidas = 2¹¹ - 1100 - 2 =
+
+
+
+
+ -Ejercicio 6.
+
+Divide la red 135.41.0.0/16 en las siguientes partes: 3 subredes de hasta 16.000 hosts, 1 subred
+de hasta 8.000 hosts, 7 subredes de 1.000 hosts, 8 subredes de hasta 120 hosts. ¿Cuántas
+direcciones IP se pierden?
+
+1° Red 135.41.0.0/18
+   Broadcast 135.41.63.255/18
+   Rango 0.1-63.254
+   IPs perdidas = 2¹⁴ - 16000 - 2 = 382
+
+2° Red 135.41.64.0/18
+   Broadcast 135.41.127.255/18
+   Rango 64.1-127.254
+   IPs perdidas = 2¹⁴ - 16000 - 2 = 382
+
+3° Red 135.41.128.0/18
+   Broadcast 135.41.191.255/18
+   Rango 128.1-191.254
+   IPs perdidas = 2¹⁴ - 16000 - 2 = 382
+
+4° Red 135.41.192.0/19
+   Broadcast 135.41.223.255/19
+   Rango 192.1-223.254
+   IPs perdidas = 2¹³ - 8000 - 2 = 190
+
+5° Red 135.41.224.0/22
+   Broadcast 135.41.227.255/22
+   Rango 224.1-227.254
+   IPs perdidas = 2¹⁰ - 1000 - 2 = 22
+
+6° Red 135.41.228.0/22
+   Broadcast 135.41.231.255/22
+   Rango 228.1-231.254
+   IPs perdidas = 2¹⁰ - 1000 - 2 = 22
+
+7° Red 135.41.232.0/22
+   Broadcast 135.41.235.255/22
+   Rango 232.1-235.254
+   IPs perdidas = 2¹⁰ - 1000 - 2 = 22
+
+8° Red 135.41.236.0/22
+   Broadcast 135.41.239.255/22
+   Rango 236.1-239.254
+   IPs perdidas = 2¹⁰ - 1000 - 2 = 22
+
+9° Red 135.41.240.0/22
+   Broadcast 135.41.243.255/22
+   Rango 240.1-243.254
+   IPs perdidas = 2¹⁰ - 1000 - 2 = 22
+
+10° Red 135.41.244.0/22
+   Broadcast 135.41.247.255/22
+   Rango 244.1-247.254
+   IPs perdidas = 2¹⁰ - 1000 - 2 = 22
+
+11° Red 135.41.248.0/22
+   Broadcast 135.41.251.255/22
+   Rango 248.1-251.254
+   IPs perdidas = 2¹⁰ - 1000 - 2 = 22
+
+12° Red 135.41.252.0/25
+   Broadcast 135.41.252.127/25
+   Rango 252.1-252.126
+   IPs perdidas = 2⁷ - 120 - 2 = 6
+
+13° Red 135.41.252.128/25
+   Broadcast 135.41.252.255/25
+   Rango 252.1-252.254
+   IPs perdidas = 2⁷ - 120 - 2 = 6
+
+14° Red 135.41.253.0/25
+   Broadcast 135.41.253.127/25
+   Rango 253.1-253.126
+   IPs perdidas = 2⁷ - 120 - 2 = 6
+
+15° Red 135.41.253.128/25
+   Broadcast 135.41.253.255/25
+   Rango 253.1-253.254
+   IPs perdidas = 2⁷ - 120 - 2 = 6
+
+16° Red 135.41.254.0/22
+   Broadcast 135.41.254.127/22
+   Rango 254.1-254.126
+   IPs perdidas = 2⁷ - 120 - 2 = 6
+
+17° Red 135.41.254.128/22
+   Broadcast 135.41.254.255/22
+   Rango 254.1-254.254
+   IPs perdidas = 2⁷ - 120 - 2 = 6
+
+18° Red 135.41.255.0/22
+   Broadcast 135.41.254.255/22
+   Rango 254.1-254.254
+   IPs perdidas = 2⁷ - 120 - 2 = 6
+
+19° Red 135.41.254.128/22
+   Broadcast 135.41.254.255/22
+   Rango 254.1-254.254
+   IPs perdidas = 2⁷ - 120 - 2 = 6
+
+
+    Total de IPs desperdiciadas: 1538
+
+
+ -Ejercicio 7.
+    
+    Dividir la dirección de red 132.12.13.43 /16 en las siguientes subredes:
+
+        a) 1 red de 12.000 ordenadores
+
+            1° Red 135.41.0.0/18
+               Broadcast 135.41.63.255/18
+               Rango 0.1-63.254
+               IPs perdidas = 2¹⁴ - 12000 - 2 = 4382            
+
+        b) 1 red de 5.000 ordenadores
+
+            2° Red 135.41.64.0/19
+               Broadcast 135.41.95.255/19
+               Rango 64.1-95.254
+               IPs perdidas = 2¹³ - 5000 - 2 = 3190
+
+        c) 3 redes de 3.000 ordenadores
+
+            3° Red 135.41.96.0/20
+               Broadcast 135.41.111.255/20
+               Rango 96.1-111.254
+               IPs perdidas = 2¹² - 3000 - 2 = 1094
+
+            4° Red 135.41.112.0/20
+               Broadcast 135.41.127.255/20
+               Rango 112.1-127.254
+               IPs perdidas = 2¹² - 3000 - 2 = 1094
+
+            5° Red 135.41.128.0/20
+               Broadcast 135.41.143.255/20
+               Rango 128.1-143.254
+               IPs perdidas = 2¹² - 3000 - 2 = 1094
+
+        d) 3 redes de 1.000 ordenadores
+
+            6° Red 135.41.144.0/22
+               Broadcast 135.41.147.255/22
+               Rango 144.1-147.254
+               IPs perdidas = 2¹⁰ - 1000 - 2 = 22
+
+            7° Red 135.41.148.0/22
+               Broadcast 135.41.151.255/22
+               Rango 148.1-151.254
+               IPs perdidas = 2¹⁰ - 1000 - 2 = 22
+
+            8° Red 135.41.152.0/22
+               Broadcast 135.41.155.255/22
+               Rango 152.1-155.254
+               IPs perdidas = 2¹⁰ - 1000 - 2 = 22
+
+        e) 8 redes de 100 ordenadores
+        ¿Cuántas direcciones IP se pierden?
+
+
+            9° Red 135.41.156.0/22
+               Broadcast 135.41.156.255/22
+               Rango 156.1-156.254
+               IPs perdidas = 2⁷ - 100 - 2 = 26
+
+            10° Red 135.41.156.128/22
+               Broadcast 135.41.156.255/22
+               Rango 156.1-156.254
+               IPs perdidas = 2⁷ - 100 - 2 = 26
+
+            11° Red 135.41.157.0/22
+               Broadcast 135.41.157.127/22
+               Rango 157.1-157.126
+               IPs perdidas = 2⁷ - 100 - 2 = 26
+               
+            12° Red 135.41.157.128/22
+               Broadcast 135.41.157.255/22
+               Rango 157.1-157.254
+               IPs perdidas = 2⁷ - 100 - 2 = 26
+
+            13° Red 135.41.158.0/22
+               Broadcast 135.41.158.127/22
+               Rango 158.1-158.126
+               IPs perdidas = 2⁷ - 100 - 2 = 26
+
+            14° Red 135.41.158.128/22
+               Broadcast 135.41.158.255/22
+               Rango 158.1-158.254
+               IPs perdidas = 2⁷ - 100 - 2 = 26
+    
+            15° Red 135.41.159.0/22
+               Broadcast 135.41.159.127/22
+               Rango 159.1-159.126
+               IPs perdidas = 2⁷ - 100 - 2 = 26
+
+            16° Red 135.41.159.128/22
+               Broadcast 135.41.159.255/22
+               Rango 159.1-159.254
+               IPs perdidas = 2⁷ - 100 - 2 = 26
+
+            Total de IPs desperdiciadas: 11128
+
+
+ -Ejercicio 8.
+    Reservada esa ip 
+
+
+
+
+
+
+
